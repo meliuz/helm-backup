@@ -1,0 +1,18 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: meliuz/helm-backup
+  description: '# Helm Backup Plugin
+
+
+    This is a Helm plugin which performs backup/restore of releases in a namespace
+    to/from a file
+
+    '
+  name: helm-backup
+spec:
+  lifecycle: production
+  type: service
