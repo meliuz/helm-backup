@@ -8,11 +8,11 @@ metadata:
   description: '# Helm Backup Plugin
 
 
-    This is a Helm plugin which performs backup/restore of releases in a namespace
-    to/from a file
+    This is a Helm plugin which performs backup/restore of releases in a namespace to/from a file
 
     '
   name: helm-backup
 spec:
   lifecycle: production
   type: service
+  owner: Unknown
